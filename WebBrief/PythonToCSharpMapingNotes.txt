@@ -1,0 +1,12 @@
+﻿| Python                             | ASP.NET Core MVC                  |
+| ---------------------------------- | --------------------------------- |
+| `os.getenv()`                      | `IConfiguration`                  |
+| `.env`                             | `appsettings.json` / User Secrets |
+| `OpenAI()`                         | `HttpClient`                      |
+| `client.chat.completions.create()` | `HttpClient.PostAsync()`          |
+| `fetch_website_contents()`         | `WebsiteScraper`                  |
+| `summarize()`                      | `GroqAIService`                   |
+| `personality` dictionary           | `Dictionary<string,string>`       |
+| Gradio UI                          | Razor View                        |
+| Python function                    | Controller/Service                |
+| `response.choices[0]...`           | `JsonDocument`                    |
